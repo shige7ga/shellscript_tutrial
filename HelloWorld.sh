@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "Hello, World!"
-echo "Pull Request 実践"
+echo 'What is your name?'
+
+read name
+
+echo "Hello, $name!"
